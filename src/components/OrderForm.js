@@ -24,7 +24,7 @@ export default function OrderForm(props){
         <form id="pizza-form" onSubmit={onSubmit}>
             <div className="order">
                 <h1>WHATCHA WANT, CHUMP?</h1>
-                <h2>All pizzas come with fesh mozz, baby. bada bing bada boom</h2>
+                <h2>All pizzas come with fesh mozz</h2>
                 <label>Name&nbsp;
                     <input
                     id='name-input'
@@ -97,7 +97,7 @@ export default function OrderForm(props){
                     />
                 </label>
                 
-                <button disabled={disabled}>Submit</button>
+                <button disabled={disabled} id="order-button">Submit</button>
                 <div className='errors'>
                     <div>{errors.name}</div>
                     <div>{errors.size}</div>
