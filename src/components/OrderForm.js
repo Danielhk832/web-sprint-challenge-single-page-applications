@@ -52,41 +52,41 @@ export default function OrderForm(props){
         {/* ////////// CHECKBOXES ////////// */}
         {/* ////////// CHECKBOXES ////////// */}
         {/* ////////// CHECKBOXES ////////// */}
-                    <div className="toppings">
-                        <h3>Toppings: </h3>
-                        <label>Pepperoni
-                            <input
-                            type="checkbox"
-                            name="pepperoni"
-                            checked={values.pepperoni}
-                            onChange={onChange}
-                            />
-                        </label>
-                        <label>Sausage
-                            <input
-                            type="checkbox"
-                            name="sausage"
-                            checked={values.sasuage}
-                            onChange={onChange}
-                            />
-                        </label>
-                        <label>Ham
-                            <input
-                            type="checkbox"
-                            name="ham"
-                            checked={values.ham}
-                            onChange={onChange}
-                            />
-                        </label>
-                        <label>Bacon
-                            <input
-                            type="checkbox"
-                            name="bacon"
-                            checked={values.bacon}
-                            onChange={onChange}
-                            />
+                <div className="toppings">
+                    <h3>Toppings: </h3>
+                    <label>Pepperoni
+                        <input
+                        type="checkbox"
+                        name="pepperoni"
+                        checked={values.pepperoni}
+                        onChange={onChange}
+                        />
                     </label>
-                    </div>
+                    <label>Sausage
+                        <input
+                        type="checkbox"
+                        name="sausage"
+                        checked={values.sasuage}
+                        onChange={onChange}
+                        />
+                    </label>
+                    <label>Ham
+                        <input
+                        type="checkbox"
+                        name="ham"
+                        checked={values.ham}
+                        onChange={onChange}
+                        />
+                    </label>
+                    <label>Bacon
+                        <input
+                        type="checkbox"
+                        name="bacon"
+                        checked={values.bacon}
+                        onChange={onChange}
+                        />
+                    </label>
+                </div>
                 <label>Special insctructions&nbsp;
                     <input
                     id='special-text'
